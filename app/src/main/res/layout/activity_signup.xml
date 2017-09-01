@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.bob.knowyourheritage.SignupActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/username_2"
+        android:hint=" Name"
+        android:textColorHint="#f9f9ff"
+        android:textColor="#f9f9ff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/design"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/numberET"
+        android:maxLines="1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="10"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/number"
+        android:hint=" Number"
+        android:textColorHint="#f9f9ff"
+        android:textColor="#f9f9ff"
+        android:background="@drawable/design"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/emailET"
+        android:maxLength="40"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:hint=" Email"
+        android:textColorHint="#f9f9ff"
+        android:textColor="#f9f9ff"
+        android:drawableLeft="@drawable/username"
+        android:background="@drawable/design"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/passET"
+        android:maxLength="15"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:hint=" Password"
+        android:textColorHint="#f9f9ff"
+        android:textColor="#f9f9ff"
+        android:drawableLeft="@drawable/password"
+        android:background="@drawable/design"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/confpassET"
+        android:maxLength="15"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/confpass"
+        android:layout_height="50dp"
+        android:hint=" Confirm Password"
+        android:textColorHint="#f9f9ff"
+        android:textColor="#f9f9ff"
+        android:background="@drawable/design"
+        android:layout_marginTop="5dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/signupBTN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Create Account"
+        android:background="#ffa577"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/resetBTN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Reset"
+        android:layout_marginLeft="5dp"
+        android:background="#ffa577"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
+
+</LinearLayout>

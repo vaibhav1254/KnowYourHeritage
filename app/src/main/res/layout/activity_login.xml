@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.bob.knowyourheritage.LoginActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/useret"
+        android:drawableLeft="@drawable/username_2"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="#f9f9ff"
+        android:hint=" Username"
+        android:textColor="#f9f9ff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/design"
+         />
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/passet"
+        android:drawableLeft="@drawable/password"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#f9f9ff"
+        android:hint=" Password"
+        android:textColor="#f9f9ff"
+        android:background="@drawable/design"
+        />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Let me in"
+        android:background="#ffa577"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Don't Have an account? "
+            android:textSize="16sp"
+            android:textColor="#f9f9ff"
+            android:layout_marginTop="145dp"
+            android:gravity="end"
+            />
+
+        <TextView
+            android:id="@+id/clicktv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="16sp"
+            android:textColor="#f9f9ff"
+            android:layout_marginTop="145dp"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
